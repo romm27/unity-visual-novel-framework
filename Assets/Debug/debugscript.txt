@@ -1,0 +1,24 @@
+background = "throne"
+background_music = "taishoroman2"
+yume.pose = "default"
+yume.x = "0"
+yume.y = "-0.1"
+player.pose = "default"
+player.x = "0.4"
+player.y = "-0.1"
+yume: Uuuuuh...
+yume: I didn't expect to see you again so soon...
+yume: What did the book say now...
+yume.playeffect = slide_to[destination = (0.5, -0.1); duration = 0.5]
+player: (The utterly useless spirit continued mumbling to herself while looking for something)
+yume: Here it is!
+yume: Alright! Make sure you are trying different things every time! now go and be free!
+player: Uterlly useless...
+yume.pose = hide
+background = "notsolong"
+player: Well next turn. 
+player: This is taking longer than usual, i'm wondering if Yume broke something.
+yume.pose = "default"
+yume: I am so sorry! I promise you it will never happen again!
+yume: Here this time it will work 100% no... 500%!
+player: Wathever just don't cut me in half again.

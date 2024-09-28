@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cc1ec1f1d32ef40a68bb59e525cad5, type: 3}
+  m_Name: seashore_festival1
+  m_EditorClassIdentifier: 
+  identifier: seashore_festival1
+  background: {fileID: 21300000, guid: d85b6b6935f3bd545b4b1df8908ab210, type: 3}

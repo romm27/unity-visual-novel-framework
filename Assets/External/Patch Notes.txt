@@ -1,0 +1,4 @@
+-Fixed issue with setting variables.
+-Increased max choice size to 8.
+-Implemented string display in dialogue
+-Implemented Save/Loading System

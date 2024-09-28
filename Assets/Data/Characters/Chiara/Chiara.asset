@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d311c8998c4b9884faba4ca041d697cd, type: 3}
+  m_Name: Chiara
+  m_EditorClassIdentifier: 
+  characterIdentifier: chiara
+  defaultCharacterName: Chiara
+  displayName: Character
+  characterColor: {r: 1, g: 0.23921567, b: 0.7245645, a: 1}
+  poses:
+  - poseName: default
+    pose: {fileID: 21300000, guid: afe1724115bb27042b8e5db690c8665b, type: 3}
+  - poseName: pleased
+    pose: {fileID: 21300000, guid: 1e24a0a4acbe54042b0ae09bbf75cfbe, type: 3}
+  - poseName: angered
+    pose: {fileID: 21300000, guid: 530009939376db543b239e032fce541d, type: 3}

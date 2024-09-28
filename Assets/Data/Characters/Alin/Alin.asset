@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d311c8998c4b9884faba4ca041d697cd, type: 3}
+  m_Name: Alin
+  m_EditorClassIdentifier: 
+  characterIdentifier: alin
+  defaultCharacterName: Alin
+  displayName: Attendant?
+  characterColor: {r: 1, g: 0.6462264, b: 0.737492, a: 1}
+  poses:
+  - poseName: default
+    pose: {fileID: 21300000, guid: 43d12f3f244ca3f4a9248dc42c9ef19c, type: 3}
+  - poseName: happy
+    pose: {fileID: 21300000, guid: 321eaafd6ab5af14a8129ed54d8f2fb5, type: 3}
+  - poseName: sad
+    pose: {fileID: 21300000, guid: 224e325f85d000f47b5d49aeebf64102, type: 3}
+  - poseName: sob
+    pose: {fileID: 21300000, guid: a48666962310e5f4da60cb6fea52c80c, type: 3}
+  - poseName: angry
+    pose: {fileID: 21300000, guid: cb16d6e3f0222fd4e9ce1c2cada16ee4, type: 3}
+  - poseName: formal
+    pose: {fileID: 21300000, guid: e09eb494e571d594798e0db713795309, type: 3}
