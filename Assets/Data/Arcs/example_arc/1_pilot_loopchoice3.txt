@@ -1,0 +1,5 @@
+#When the employee room is choosen this will loop back to the choice.	
+chiara: Absolutely not!
+chiara: Think of a better place! 
+INT_cache_tried_employ_room = 1
+scene = "1_pilot_loopchoice1"

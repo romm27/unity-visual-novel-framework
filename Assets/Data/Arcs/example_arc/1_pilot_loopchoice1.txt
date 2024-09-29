@@ -1,0 +1,12 @@
+#Made this separate so I can loop back to it in the 4th choice.
+INT_choice = 0
+defineint = INT_cache_tried_employ_room
+newchoiceprompt = "Where should we search for IT first?"
+	addchoice = "In the Costumer Room" > { INT_choice = 0 }
+	addchoice = "In the Kitchen" > { INT_choice = 1 }
+	addchoice = "In the Backrooms" > { INT_choice = 2 }
+	if[INT_cache_tried_employ_room == 0]
+		addchoice = "In the Employee Room" > { INT_choice = 3 }
+	endif
+endchoiceprompt
+scene = "1_pilot_loopchoice2"

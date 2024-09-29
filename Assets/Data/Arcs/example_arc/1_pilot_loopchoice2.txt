@@ -1,0 +1,20 @@
+#Choice check for the first pilot.
+if[INT_choice == 0]
+chiara: The costumer room you say?
+chiara: I mean it previous that it is not there...
+endif 
+if[INT_choice == 1]
+chiara: The Kitchen you say?
+chiara: You know, some times I wish I could eat food...
+endif 
+if[INT_choice == 2]
+chiara: The Backrooms you say?
+chiara: Ha I didn't knew you had all that courage...
+endif 
+if[INT_choice == 3]
+chiara: The Employee Room you say?
+chiara: Are you crazy? what about that annoying girl we just met, if she finds us there it will be the end of us!
+scene = "1_pilot_loopchoice3"
+endif 
+clearvar = "cache"
+chiara: but seems good enough for now, Let's go!
