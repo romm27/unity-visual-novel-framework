@@ -1,7 +1,7 @@
 #Choice check for the first pilot.
 if[INT_choice == 0]
 chiara: The costumer room you say?
-chiara: I mean it previous that it is not there...
+chiara: I mean it is pretty obvious that it is not there...
 endif 
 if[INT_choice == 1]
 chiara: The Kitchen you say?
