@@ -36,9 +36,6 @@ To run this project, you will need to install **Unity 2021.3.39f**. Follow the s
    - Click **Archive**, which will redirect you to the Unity download archive.
    - Scroll down and find **2021.3.39f**.
    - Click **Download Archive**, and use Unity Hub to install it.
-4. Add the **required modules** during installation, including:
-   - **Android Build Support** (if needed for mobile)
-   - **WebGL Build Support** (if required by the project)
 
 ### 3. Clone the Repository
 
