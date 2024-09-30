@@ -24,7 +24,7 @@ To run this project, you will need to install **Unity 2021.3.39f**. Follow the s
 ### 3. Clone the Repository
 
 1. Clone the project repository to your local machine:
-   ```git clone https://github.com/romm27/unity-visual-novel-framework```
+   ```git clone https://github.com/romm27/unity-visual-novel-framework.git```
 2. Open Unity Hub and go to the **Projects** tab.
 3. Click **Add**, then navigate to the folder where the project was cloned, and select it.
 
