@@ -53,6 +53,7 @@ To run this project, you will need to install **Unity 2021.3.39f**. Follow the s
 1. Select the project in Unity Hub.
 2. Ensure **Unity 2021.3.39f** is selected as the version.
 3. Click **Open** to launch the project in Unity.
+4. Once it is up and running, remember to set the game preview aspect ratio to 16:9.
 
 ---
 
