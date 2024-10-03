@@ -18,6 +18,8 @@ Additionally, you can use the example scripts provided as a reference since the 
 
 You can find the example arc file inside "Assets/Data/Arcs/example_arc".
 
+## Scripting
+In the "External" folder, you'll find a file named "VNP.xml." This file defines the scripting language, enabling proper syntax highlighting in Notepad++. While it's not required, it significantly enhances the writing experience.
 
 # Project Setup Instructions
 
