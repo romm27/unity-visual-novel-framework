@@ -18,3 +18,4 @@ scene = "1_pilot_loopchoice3"
 endif 
 clearvar = "cache"
 chiara: but seems good enough for now, Let's go!
+scene = "2_end" #Ends the scene

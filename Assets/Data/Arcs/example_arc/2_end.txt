@@ -1,0 +1,14 @@
+chiara.playeffect = slide_to[destination = (-0.4, -0.2); duration = 0.6]
+chiara: Oh wait, we are out of time. I bet the reader is really bored too, so uuuuuuh...
+chiara: clap clap
+background = "library"
+chiara: As you can see, this Framework comes with many functions.
+alin.pose = "happy"
+alin.playeffect = fade_in[duration = 0.5]
+alin.playeffect = slide_to[destination = (0.4, -0.2); duration = 0.8]
+alin: Feel free to modify this script to learn more or create your own!
+chiara: All the history-related elements, such as the characters, voice lines, backgrounds, and more, can be found inside the Data folder.
+chiara: The content logic is also ScriptableObject-centric, so the only scripting artists or writers will ever need to do will the actual screenplays!
+alin: If you are a developer, remember to explore the code too. It was designed with granularity in mind, so implementing new features, such as screen effects or even new commands for the scripting language, is fairly simple.
+chiara: I learned a lot developing this project and I hope it can help you too!
+alin: Thanks for reading, and take care!

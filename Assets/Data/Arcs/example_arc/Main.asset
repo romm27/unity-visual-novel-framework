@@ -18,8 +18,12 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 57cc04107e380bb42a9664e4e8a4d5e1, type: 3}
   - {fileID: 4900000, guid: 18299181a9346ff4d8103c3093d82a06, type: 3}
   - {fileID: 4900000, guid: f58d4aa91c763ff46b8870f1dbd4366f, type: 3}
+  - {fileID: 4900000, guid: a8d89c17c914e8844a79bb0a44f2df8a, type: 3}
   sceneVoices:
   - {fileID: 11400000, guid: 0463d1c493195f043b4e61d69e623215, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -29,6 +33,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 14139e4182662184d94bf1d08d974676, type: 2}
   sceneBackgrounds:
   - {fileID: 21300000, guid: 7e465652e279328418ed18118459b473, type: 3}
+  - {fileID: 21300000, guid: 036befc7d7e58664e9e5ed4f0f201dae, type: 3}
   sceneAudioLoops:
   - {fileID: 8300000, guid: be128f5db5bae874092e165b8b4776de, type: 3}
   sceneAudioEffects:

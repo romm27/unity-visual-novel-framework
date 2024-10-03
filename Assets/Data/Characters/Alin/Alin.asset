@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIdentifier: alin
   defaultCharacterName: Alin
-  displayName: Attendant?
+  overrideName: Alin
   characterColor: {r: 1, g: 0.6462264, b: 0.737492, a: 1}
   poses:
   - poseName: default
