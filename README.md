@@ -16,6 +16,8 @@ Complete documentation is not yet available. However, you can find a list of the
 
 Additionally, you can use the example scripts provided as a reference since the language itself follows easily replicable patterns.
 
+You can find the example arc file inside "Assets/Data/Arcs/Example_Arc".
+
 
 # Project Setup Instructions
 
