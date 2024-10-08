@@ -30,7 +30,7 @@ In the "External" folder, you'll find a file named "VNP.xml." This file defines 
 
 This project uses various **ScriptableObjects** to store data related to the story, such as **Arcs** and **Characters**. All of these can be created by right-clicking in the Unity Editor and hovering over: ``` Create/VN ```
 
-In order for the desired assets to be available, you MUST reference them inside the appropriate field in the Arc scriptable object.
+To ensure the desired assets are available, you MUST reference them in the appropriate field within the Arc ScriptableObject.
 
 ### Asset Folders:
 
