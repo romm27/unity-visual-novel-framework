@@ -49,8 +49,10 @@ In order for the desired assets to be available, you MUST reference them inside 
 ## Important!
 
 > Note: Currently, there is an issue where even Arcs without dialogue must have an empty **Scene Voices** entry that matches the Arc index in order for the VNP scripts to compile correctly.
-> Note: Creating ScriptableObjects for Backgrounds is not strictly required at this time.
 
+## Notes
+
+> Note: Creating ScriptableObjects for Backgrounds is not strictly required at this time.
 
 
 # Project Setup Instructions
