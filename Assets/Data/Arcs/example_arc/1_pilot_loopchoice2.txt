@@ -1,4 +1,5 @@
 #Choice check for the first pilot.
+#As you can see variables are kept between scene changes.
 if[INT_choice == 0]
 chiara: The costumer room you say?
 chiara: I mean it is pretty obvious that it is not there...

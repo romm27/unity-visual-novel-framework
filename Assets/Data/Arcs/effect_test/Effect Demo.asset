@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18296eeb9285fe347bf3bdd2934dfca4, type: 3}
+  m_Name: Effect Demo
+  m_EditorClassIdentifier: 
+  chapterName: Effect Demo
+  sceneScripts:
+  - {fileID: 4900000, guid: 927caeef6ecb2014789fbfdde9981cd1, type: 3}
+  sceneVoices:
+  - {fileID: 0}
+  sceneCharacters:
+  - {fileID: 11400000, guid: 66b883c11fa5d4349b2b2c289e6013a1, type: 2}
+  sceneBackgrounds:
+  - {fileID: 21300000, guid: 7e465652e279328418ed18118459b473, type: 3}
+  sceneAudioLoops: []
+  sceneAudioEffects: []

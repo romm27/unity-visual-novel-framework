@@ -4,9 +4,7 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.Events;
 
-
-//FUCTION BEING HANDLED BY BACKGROUND MANAGER FOR NOW, THIS CODE IS NOT USED!!!!!!!
-
+// VNScreenEffectManager does nothing in the current version, this is handled by the VNBackgroundManager.
 public class VNScreenEffectManager : MonoBehaviour
 {
     [Header("References")]

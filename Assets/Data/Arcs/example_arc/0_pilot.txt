@@ -1,11 +1,15 @@
-background_snap = "bakery"
+background_snap = "title_screen"
+play_sound = "vine"
+system_narrator: Once upon a time...
+background = "bakery"
 background_music = "taishoroman2"
+system_narrator: You are standing at a bakery.
 alin.pose = "formal"
 alin.x = -1
 alin.y = -0.2
 alin.playeffect = slide_to[destination = (-0.3, -0.2); duration = 0.8]
 alin.playeffect = fade_in[duration = 0.8]
-system_narrator: What appears to be the shopkeeper shows up as you enter the bakery.
+system_narrator: What appears to be the shopkeeper appears as you get back into your senses.
 alin.pose = "happy"
 alin: Hello there, do you need anything?
 alin: ...
@@ -37,6 +41,11 @@ chiara.y = -0.2
 chiara.playeffect = fade_in[duration = 0.5]
 chiara: Good work, perhaps you aren't all that useless after all.
 chiara: Let's do what we came here to do, we don't know when that annoying girl will come back.
-player: I agree, Let's find the thing!
+player: I agree, Let's find the uuuuh... the thing!
+chiara.pose = "angered"
+chiara: You don't remember why we are here do you?
+player: ...
+chiara: Urgh, this will do for now.
+chiara.pose = "default"
 chiara: This place looks big... where should we start?
 scene = "1_pilot_loopchoice1" #Keeps the same flow, however the choice prompt is another file so It can be looped back into.

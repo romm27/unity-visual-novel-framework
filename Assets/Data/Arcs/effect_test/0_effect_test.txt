@@ -1,0 +1,43 @@
+#This script demonstrates: effects, looping scripts, variables, and if statements.
+background_snap = "bakery"
+alin.pose = "happy"
+alin.x = 0
+alin.y = -0.2
+alin: This is an example script demonstrating the character effects implemented into the base engine.
+alin: What would you like to try out?
+newchoiceprompt = "Which effect should be played?"
+	addchoice = "Left side to Right side"> INT_choice = 0
+	addchoice = "Middle to right"> INT_choice = 1
+	addchoice = "Middle to Left"> INT_choice = 2
+	addchoice = "Left to Middle"> INT_choice = 3
+	addchoice = "Disappear"> INT_choice = 4
+endchoiceprompt
+if[INT_choice == 0]
+	alin.x = -0.5
+	alin.playeffect = slide_to[destination = (0.5, -0.2); duration = 0.5]
+endif
+if[INT_choice == 1]
+	alin.playeffect = slide_to[destination = (0.5, -0.2); duration = 0.5]
+endif
+if[INT_choice == 2]
+	alin.playeffect = slide_to[destination = (-0.5, -0.2); duration = 0.5]
+endif
+if[INT_choice == 3]
+	alin.x = -0.5
+	alin.playeffect = slide_to[destination = (0, -0.2); duration = 0.5]
+endif
+if[INT_choice == 4]
+	alin.playeffect = slide_to[destination = (-0.9, -0.2); duration = 0.8]
+	alin.playeffect = fade_out[duration = 0.6]
+	alin: And I am gone...
+	alin: Don't worry though, I can still talk.
+	#The fade_out playeffect automatically removes the character's pose, so you'll need to set it again for the character to reappear.
+	alin.pose = "happy" 
+	alin.playeffect = slide_to[destination = (0, -0.2); duration = 0.8]
+	alin.playeffect = fade_in[duration = 0.6]
+	alin: And I am here again!
+endif
+alin: There we go!
+alin.playeffect = slide_to[destination = (0, -0.2); duration = 0.5]
+alin: We could try something else now.
+scene = "0_effect_test"
