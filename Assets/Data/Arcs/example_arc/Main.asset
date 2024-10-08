@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18296eeb9285fe347bf3bdd2934dfca4, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: 
-  chapterName: Island
+  chapterName: Example File
   sceneScripts:
   - {fileID: 4900000, guid: 7530463f20a8de24aaece6591619242d, type: 3}
   - {fileID: 4900000, guid: 57cc04107e380bb42a9664e4e8a4d5e1, type: 3}
