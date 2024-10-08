@@ -13,7 +13,7 @@ The music featured in the example was created by [Peritune.](https://www.youtube
 This is a visual novel framework for the Unity Engine. It allows you to write dialogue, character actions, scenery changes, visual effects, and many other elements into a story.
 
 ## How does it work?
-It uses a custom scripting language called "VNF" that is easy to learn and designed with simplicity in mind, much like writing a screenplay.
+It uses a custom scripting language called "VNF" that is easy to learn and designed with character actions in mind, much like writing a screenplay.
 
 ## Where can I find the documentation?
 Complete documentation is not yet available. However, you can find a list of the most useful commands in the "Assets/External" folder, under a file called "VNF Documentation.odt".
