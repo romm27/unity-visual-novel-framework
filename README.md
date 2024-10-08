@@ -53,7 +53,7 @@ The entry point to the story will be the first Arc file in the Arcs array from t
 
 ## Important!
 
-> Note: Currently, there is an issue where even Arcs without dialogue must have an empty **Scene Voices** entry that matches the Arc index in order for the VNP scripts to compile correctly.
+> Note: Currently, there is an issue where even Arcs without dialogue must have an empty **Scene Voices** entry that matches the Arc index, in order for the VNP scripts to compile correctly.
 
 ## Notes
 
