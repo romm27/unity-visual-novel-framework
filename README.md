@@ -25,6 +25,36 @@ In the "External" folder, you'll find a file named "VNP.xml." This file defines 
 
 ![vn2](https://github.com/user-attachments/assets/17b409d0-174c-4298-9db1-883b1f752448)
 
+
+## Assets
+
+This project uses various **ScriptableObjects** to store data related to the story, such as **Arcs** and **Characters**. All of these can be created by right-clicking in the Unity Editor and hovering over: ``` Create/VN ```
+
+To ensure the desired assets are available, you MUST reference them in the appropriate field within the Arc ScriptableObject.
+
+### Asset Folders:
+
+- **Character ScriptableObjects and Poses**:  
+  `Data/Characters`
+
+- **Backgrounds**:  
+  `Data/Backgrounds`
+
+- **Audio Files**:  
+  `Data/Audio`
+
+- **Scripts and related ScriptableObjects**:  
+  `Data/Arcs`
+
+## Important!
+
+> Note: Currently, there is an issue where even Arcs without dialogue must have an empty **Scene Voices** entry that matches the Arc index in order for the VNP scripts to compile correctly.
+
+## Notes
+
+> Note: Creating ScriptableObjects for Backgrounds is not strictly required at this time.
+
+
 # Project Setup Instructions
 
 ## Prerequisites
