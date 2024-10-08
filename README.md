@@ -6,6 +6,8 @@ The music featured in the example was created by [Peritune.](https://www.youtube
 
 ![vn1](https://github.com/user-attachments/assets/c05474b5-dd35-4e3e-87af-2eba673c8df6)
 
+>This project is still under active development, so even if it's stable, some features may not be complete.
+
 
 ## What is this project?
 This is a visual novel framework for the Unity Engine. It allows you to write dialogue, character actions, scenery changes, visual effects, and many other elements into a story.
@@ -45,6 +47,8 @@ To ensure the desired assets are available, you MUST reference them in the appro
 
 - **Scripts and related ScriptableObjects**:  
   `Data/Arcs`
+
+The entry point to the story will be the first Arc file in the Arcs array from the Director GameObject present in the scene.
 
 ## Important!
 
