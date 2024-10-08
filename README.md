@@ -21,6 +21,7 @@ Complete documentation is not yet available. However, you can find a list of the
 Additionally, you can use the example scripts provided as a reference since the language itself follows easily replicable patterns.
 
 You can find the example arc file inside "Assets/Data/Arcs/example_arc".
+And another simpler example file inside "Assets/Data/effect_demo"
 
 ## Scripting
 In the "External" folder, you'll find a file named "VNP.xml." This file defines the scripting language, enabling proper syntax highlighting in Notepad++. While it's not required, it significantly enhances the writing experience.
@@ -45,7 +46,7 @@ To ensure the desired assets are available, you MUST reference them in the appro
 - **Audio Files**:  
   `Data/Audio`
 
-- **Scripts and related ScriptableObjects**:  
+- **Scripts, Voice lines and related ScriptableObjects**:  
   `Data/Arcs`
 
 The entry point to the story will be the first Arc file in the Arcs array from the Director GameObject present in the scene.
