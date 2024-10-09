@@ -6,7 +6,7 @@ The music featured in the example was created by [Peritune.](https://www.youtube
 
 ![vn1](https://github.com/user-attachments/assets/c05474b5-dd35-4e3e-87af-2eba673c8df6)
 
->This project is still under active development, so even if it's stable, some features may not be complete.
+> **Note:** This project is still under active development, so even if it's stable, some features may not be complete.
 
 
 ## What is this project?
