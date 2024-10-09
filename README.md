@@ -59,7 +59,7 @@ The entry point to the story will be the first Arc file in the Arcs array from t
 
 ## Notes
 
-> **Note:** Creating ScriptableObjects for Backgrounds is not strictly required at this time.
+> **Note:** Creating ScriptableObjects for backgrounds is not strictly required at this time.
 
 
 # Project Setup Instructions
